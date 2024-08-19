@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="images/favicon.png">
+    <title>goose's sanctuary | Socials</title>
+</head>
+<body>
+    <button class="specialbutton" onclick="goToInstagram()">My Instagram</button>
+    <br><br>
+    <button class="specialbutton" onclick="goToGitHub()">My GitHub</button>
+    <br><br><br>
+    <button class="button" onclick="goHome()">home</button>
+</body>
+<script>
+    function goToInstagram(){
+        window.open("https://www.instagram.com/whalesovercats/", "_blank")
+    }
+    function goToGitHub(){
+        window.open("https://github.com/whalesovercats/","_blank")
+    }
+    function goHome(){
+        window.location.href = 'index'
+    }
+</script>
