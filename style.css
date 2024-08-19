@@ -29,10 +29,6 @@ body {
     width:auto;
     cursor: pointer;
 }
-video{
-    width: 100%;
-    height: auto;
-}
 .big-text{
     font-size: 70px;
     font-weight: bold;
